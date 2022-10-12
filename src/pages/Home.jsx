@@ -6,6 +6,7 @@ import Users from "../components/Users";
 import Collections from "../components/Collections";
 import Authors from "../components/Authors";
 import CreateCollection from "../components/CreateCollection";
+import EditProfile from "../components/EditProfile";
 function Home(props) {
     return (
         <div>
@@ -19,6 +20,7 @@ function Home(props) {
                 <Route path={'/collections'} element={<Collections/>}/>
                 <Route path={'/authors'} element={<Authors/>}/>
                 <Route path={'/create'} element={<CreateCollection/>}/>
+                <Route path={'/profile'} element={<EditProfile/>}/>
             </Routes>
 
         </div>
